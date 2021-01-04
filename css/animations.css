@@ -1,0 +1,26 @@
+:root {
+  --neon: #0091ca94;
+}
+.neon {
+  animation: neon-flicker 1s infinite alternate;
+}
+@keyframes neon-flicker {
+  0%,
+  10%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: -0.1em -0.1em 1em #ffffff, 0.1em 0.1em 1em #ffffff,
+      0 0 0.3em var(--neon), 0 0 1em var(--neon), 0 0 2em var(--neon),
+      0 0 3em var(--neon), 0 0 4em var(--neon);
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
