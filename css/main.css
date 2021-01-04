@@ -2,35 +2,49 @@
   padding: 0;
   margin: 0;
 }
-
 body {
   background-color: #212121;
 }
-
-.container {
+.container,
+.clock {
   display: flex;
   flex-direction: column;
 }
-.top_nav_ul {
+
+/*TOP NAV BAR*/
+.nav_ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   margin: 3%;
 }
-.top_nav_ul li,
-.switch {
+.nav_ul li {
+  list-style: none;
   width: 7em;
   height: 2.8em;
-}
-.top_nav_ul li {
-  list-style: none;
   border-radius: 15px;
   background-color: #3a4042;
   text-align: center;
   margin: 0.2em 0 0.2em 0;
   padding: 0.2em;
 }
-.top_nav_ul li a img {
+.nav_icons {
   width: 100%;
   height: 100%;
+}
+
+/*CLOCK IN TOP NAV BAR*/
+.clock {
+  width: 6.8em;
+  height: 2.6em;
+  background-color: #25292b;
+  border: 0.1em solid #212121;
+  border-radius: 15px;
+  justify-content: center;
+  overflow: hidden;
+}
+.hour {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.3em;
+  color: #ffffff;
 }
