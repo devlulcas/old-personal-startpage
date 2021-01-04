@@ -3,35 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
     <title>Home</title>
 </head>
 <body>
     <div class="container">
         <header>
             <nav>
-                <ul class="top_nav_ul">
+                <ul class="nav_ul">
                     <!--YT INS mail GH RD-->
                     <li><a href="https://www.youtube.com" title="#" target="_blank">
-                        <img src="resources/images/youtube.svg">
+                        <img class="nav_icons" src="resources/images/youtube.svg">
                     </a></li>
                     
                     <li><a href="https://www.instagram.com" title="#" target="_blank">
-                        <img src="resources/images/instagram.svg">
+                        <img class="nav_icons" src="resources/images/instagram.svg">
                     </a></li>
 
                     <li><a href="https://mail.google.com/mail/u/0/#inbox" title="#" target="_blank">
-                        <img src="resources/images/gmail.svg">
+                        <img class="nav_icons" src="resources/images/gmail.svg">
                     </a></li>
 
                     <li><a href="https://github.com" title="#" target="_blank">
-                        <img src="resources/images/github.svg">
+                        <img class="nav_icons" src="resources/images/github.svg">
                     </a></li>
                     <li><a href="https://www.reddit.com" title="#" target="_blank">
-                        <img src="resources/images/reddit.svg">
+                        <img class="nav_icons" src="resources/images/reddit.svg">
                     </a></li>
-                    <!--Slide button to nigth mode-->
-                    <input type="checkbox" class="switch">
+
+                    <!--Clock-->
+                    <li>
+                        <div class="clock"><span class="hour neon">00:00</span></div>
+                    </li>
                 </ul>
                 
             </nav>
