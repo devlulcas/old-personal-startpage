@@ -5,20 +5,20 @@
 body {
   background-color: #212121;
 }
-.container,
-.clock {
+#container,
+#clock {
   display: flex;
   flex-direction: column;
 }
 
 /*TOP NAV BAR*/
-.nav_ul {
+#nav_ul {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
   margin: 3%;
 }
-.nav_ul li {
+#nav_ul li {
   list-style: none;
   width: 7em;
   height: 2.8em;
@@ -34,7 +34,7 @@ body {
 }
 
 /*CLOCK IN TOP NAV BAR*/
-.clock {
+#clock {
   width: 6.8em;
   height: 2.6em;
   background-color: #25292b;
@@ -43,7 +43,7 @@ body {
   justify-content: center;
   overflow: hidden;
 }
-.hour {
+#hour {
   font-family: "Roboto Slab", serif;
   font-size: 1.3em;
   color: #ffffff;
