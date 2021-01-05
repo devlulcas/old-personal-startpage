@@ -20,6 +20,7 @@ body {
 }
 #nav_ul li {
   list-style: none;
+  user-select: none;
   width: 7em;
   height: 2.8em;
   border-radius: 15px;
