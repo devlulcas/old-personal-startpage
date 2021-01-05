@@ -13,10 +13,10 @@
     <title>Home</title>
 </head>
 <body>
-    <div class="container">
+    <div id="container">
         <header>
             <nav>
-                <ul class="nav_ul">
+                <ul id="nav_ul">
                     <!--YT INS mail GH RD-->
                     <li><a href="https://www.youtube.com" title="#" target="_blank">
                         <img class="nav_icons" src="resources/images/youtube.svg">
@@ -39,19 +39,21 @@
 
                     <!--Clock-->
                     <li>
-                        <div class="clock"><span class="hour neon">00:00</span></div>
+                        <div id="clock"><span id="hour" class="neon">00:00</span></div>
                     </li>
                 </ul>
                 
             </nav>
             
         </header>
-        <section class="search">
-            <form action="https://www.google.com/search" class="search_form" method="get" name="searchform" target="_blank">
-                <input autocomplete="on" class="search_input" name="q" placeholder="Google it!" required="required"  type="text">
-                <button class="search_btn" type="submit">???</button>
+        <section id="search">
+            <form action="https://www.google.com/search" id="search_form" method="get" name="searchform" target="_blank">
+                <input autocomplete="on" id="search_input" name="q" placeholder="Google it!" required="required"  type="text">
+                <button id="search_btn" type="submit">???</button>
             </form>
         </section>
     </div>
+
+    <script src="js/index.js"></script>
 </body>
 </html>
