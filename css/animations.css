@@ -1,6 +1,3 @@
-:root {
-  --neon: #0091ca94;
-}
 .neon {
   animation: neon-flicker 1s infinite alternate;
 }
